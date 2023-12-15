@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;600&display=swap');
+body{
+  font-family: 'Onest', sans-serif;
+  margin: 0;
+  border-top: 10px solid mediumseagreen;
+  border-bottom: 10px solid mediumseagreen;
+}
+
+header{
+  text-align: center;
+  color: darkgreen;
+}
+
+a:link{
+  color: grey;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: dimgrey;
+}
+
+a:active{
+  color: darkgreen;
+}
+
+/* Vertical Navigation bar */
+nav{
+  background-color: darkgreen;
+  border-top: 2px grey solid;
+  border-bottom: 2px grey solid;
+  
+  margin: auto;
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li{
+  display: inline;
+}
+
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+footer a:link, 
+nav a:link{
+  color: white;
+}
+
+footer a:visited,
+nav a:visited{
+  color: white;
+}
+
+footer a:link,
+nav a:hover{
+  color: white;
+}
+
+nav a:active{
+  color: whitesmoke;
+}
+
+main{
+  background-color: white;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+footer{
+  background-image: url(image/leave2.jpg);
+  text-align: center;
+  border-top: 1px solid slategrey;
+  padding: 10px;
+  color: white;
+  clear: both;
+ }
+
+ img{
+  text-align: center;
+ }
+
+ blockquote{
+    
+    color: navajowhite;
+    font-size: 13px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    text-align: center;
+    font-size: 4em;
+    color: darkgreen;
+ }
+
+ footer h2{
+  color: antiquewhite;
+ }
+
+ h2{
+  color: darkgreen;
+  font-size: 30px;
+
+ }
+
+ hr{
+  font-size: 3em;
+  color: greenyellow;
+ }
+
+ #hometop{
+  background-image: url(image/leave.jpg);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+ #hometop h1{
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+ }
+
+ .home-photo{
+  float: right;
+  height: auto;
+  margin: 50px 0 10px 20px;
+ }
+
+ .fa{
+  font-size: 30px;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
